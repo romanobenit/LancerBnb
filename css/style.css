@@ -1,0 +1,137 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ body {
+ font-family: 'Hepta Slab', serif;
+ }
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(84, 86, 212);
+}
+nav .brand-logo {
+  font-family: 'Dancing Script', cursive;
+}
+.nav-wrapper {
+  padding: 0 150px;
+}
+.header-subtitle {
+  margin-top: 10%;
+  font-size: 2em;
+  
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.section-intro {
+    height: 100%;
+    width: 100%;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+ 
+  .nav-wrapper {
+    padding: 0 10px;
+  }
+
+}
+
+.col-servizio {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+#servizio h5{
+  font-size: 1.3em;
+  line-height: 1.6em;
+}
+.section-registrazione{
+  height: 100%;
+  width: 100%;
+}
+.registrazione-icons {
+  font-size: 7em;
+}
+
+.btn-registrazione {
+  width: 100%;
+}
+
+.registrazione-subtitle {
+  font-size: 1.3em;
+  margin-bottom: 5%;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.ospita-icons {
+  font-size: 7em;
+}
+.ospita-subtitle {
+  font-size: 1.3em;
+  margin-bottom: 5%;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.btn-ospita {
+  width: 100%;
+}
+footer.page-footer {
+  margin: 0;
+  background-color: #305467;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.social-icon:hover {
+  color: blue;
+}
+
+.button-collapse {
+  color: red;
+}
